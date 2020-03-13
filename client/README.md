@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1. One could use class components to use life cycle hooks. Although both are viable, it is useful to know class components and function components in case a future employer uses one or the other.
+
+2. Three lifecycle phases are:
+birth/mounting: component is built - initial data is accessed and render method is invoked.
+growth/updating: updating component data - setState can change data which also calls a render.
+death/unmounting: removal of component - componentWillUnmount is called.
+
+3. Custom hooks are hooks one creates to apply non-visual behavior and stateful logic through your components. It is a method to be D-R-Y while reusing a hook with dynamic inputs. 
+
+4. App testing is important for quality assurance, finding bugs faster, and even help us make changes or refactors by acting as a safety net.
